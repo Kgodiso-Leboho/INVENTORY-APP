@@ -4,42 +4,44 @@ A full-stack inventory management application designed to help businesses effici
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📦 Product management (add, update, delete items)
-* 📊 Real-time inventory tracking
-* 🔍 Search and filter products
-* 📉 Low-stock alerts
-* 📈 Basic analytics and reporting
-* 🔐 Authentication and role-based access (optional if implemented)
+* Product management (add, update, delete items)
+* Real-time inventory tracking
+* Search and filter functionality
+* Low-stock alerts
+* Inventory insights and reporting
+* Authentication and authorization (if implemented)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**
 
 * React
-* Tailwind CSS / CSS
+* CSS
 
 **Backend**
 
-* FastAPI / Node.js (choose yours)
-* REST API architecture
+* Node.js
+* Express.js
+* RESTful API architecture
 
 **Database**
 
-* MongoDB / PostgreSQL / MySQL
+* PostgreSQL
+* Supabase
 
 ---
 
-## 🧠 System Design
+## 🧠 System Architecture
 
-The system follows a modular full-stack architecture:
+The application follows a clean full-stack architecture:
 
-* Frontend handles UI and user interaction
-* Backend exposes RESTful APIs
-* Database stores product and inventory data
+* **Frontend (React):** Handles UI and user interaction
+* **Backend (Node.js + Express):** Processes requests and business logic
+* **Database:** Stores product and inventory data
 
 ---
 
@@ -56,8 +58,8 @@ cd inventory-app
 
 ```bash
 cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+npm install
+npm run dev
 ```
 
 ### 3. Setup frontend
@@ -70,29 +72,20 @@ npm run dev
 
 ---
 
-## 📊 Example Use Cases
+## Example Use Cases
 
-* Retail store inventory tracking
-* Warehouse stock management
-* Small business product monitoring
+* Retail inventory tracking
+* Warehouse management systems
+* Small business stock monitoring
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
-* Barcode scanning integration
+* Barcode/QR code scanning
+* Role-based access control (Admin/User)
+* Real-time updates with WebSockets
 * AI-based demand forecasting
-* Multi-warehouse support
-* Cloud deployment (AWS / Azure)
+* Cloud deployment (AWS / Docker)
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome. Please open an issue or submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
