@@ -11,7 +11,7 @@ A full-stack inventory management application designed to help businesses effici
 * Search and filter functionality
 * Low-stock alerts
 * Inventory insights and reporting
-* Authentication and authorization (if implemented)
+* Authentication and authorization
 
 ---
 
