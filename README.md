@@ -35,7 +35,7 @@ A full-stack inventory management application designed to help businesses effici
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 The application follows a clean full-stack architecture:
 
@@ -45,7 +45,7 @@ The application follows a clean full-stack architecture:
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
